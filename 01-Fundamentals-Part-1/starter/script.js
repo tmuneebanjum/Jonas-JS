@@ -1,3 +1,4 @@
+/*
 let js = "amazing";
 // if (js === "amazing") alert("javascript is fun");
 
@@ -49,4 +50,18 @@ const job;
 
 var job = 'programmer';
 job = 'teacher'
+*/
 
+const now = 2037;
+let ageMuneeb = now - 2001;
+let ageSara = now - 1991;
+console.log(ageMuneeb, ageSara);
+
+console.log(ageMuneeb * 2, ageMuneeb / 2, 2 ** 3);
+const firstName = "Muneeb";
+const lastName = "Anjum";
+console.log(firstName + " " + lastName);
+
+let x = 10 + 5;
+x += 10;
+console.log(x);
