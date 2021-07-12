@@ -1,35 +1,74 @@
-function logger() {
-  console.log("first function");
-}
-logger();
+// function logger() {
+//   console.log("first function");
+// }
+// logger();
 
-function foodProcessor(apples, oranges) {
-  //   console.log(apples, oranges);
-  const juice = `Juice with ${apples} apples and ${oranges} oranges`;
-  return juice;
-}
+// function foodProcessor(apples, oranges) {
+//   //   console.log(apples, oranges);
+//   const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+//   return juice;
+// }
+// const appleJuice = foodProcessor(5, 0);
+// console.log(appleJuice);
+// const appleOrangeJuice = foodProcessor(5, 4);
+// console.log(appleOrangeJuice);
 
-const appleJuice = foodProcessor(5, 0);
-console.log(appleJuice);
+// function describeCountry(country, population, capitalCity) {
+//   const info = `${country} has ${population} people and its capital city ${capitalCity}`;
+//   return info;
+// }
+// const details = describeCountry("pakistan", "6 million", "islmabad");
+// console.log(details);
 
-const appleOrangeJuice = foodProcessor(5, 4);
-console.log(appleOrangeJuice);
+// function calcAge1(birthYear) {
+//   return 2037 - birthYear;
+// }
+// const age1 = calcAge1(1990);
+// console.log(age1);
 
-function describeCountry(country, population, capitalCity) {
-  const info = `${country} has ${population} people and its capital city ${capitalCity}`;
-  return info;
-}
-const details = describeCountry("pakistan", "6 million", "islmabad");
-console.log(details);
+// const calcAge2 = function (birthYear) {
+//   return 2037 - birthYear;
+// };
+// const age2 = calcAge2(1991);
+// console.log(age1, age2);
 
-function calcAge1(birthYear) {
-  return 2037 - birthYear;
-}
-const age1 = calcAge1(1990);
-console.log(age1);
+// function percentageOfWorld1(population, country) {
+//   const percentage = (population / 7900) * 100;
+//   console.log(percentage);
+//   const pop = `${country} has ${population} million people, so it's about ${percentage} of the world population.`;
+//   return pop;
+// }
+// const worldpopulation = percentageOfWorld1("pakistan", 130);
+// console.log(worldpopulation);
 
-const calcAge2 = function (birthYear) {
-  return 2037 - birthYear;
-};
-const age2 = calcAge2(1991);
-console.log(age1, age2);
+// //arrow function
+// //challenge # 1
+
+// const friends = ["Michael", "Steven", "Peter"];
+
+// const year = new Array(1990, 1992, 1994);
+
+// console.log(friends);
+// console.log(friends[friends.length - 1]);
+
+// friends[2] = "Jay";
+// console.log(friends);
+
+// const name = "Muneeb";
+
+// const muneeb = [name, "Anjum", 2001 - 2021, friends];
+// console.log(muneeb);
+
+// //ercersie
+
+// const calcAge = function (birthYear) {
+//   return 2037 - birthYear;
+// };
+
+// const years = [1900, 1950, 2001];
+// const age11 = calcAge(years[0]);
+// console.log(age1);
+
+const friends = ["Michael", "Steven", "Peter"];
+friends.push("jay");
+console.log(friends);
