@@ -101,3 +101,11 @@ console.log(muneeb.firstName);
 const namekey = "Name";
 console.log(muneeb["first" + namekey]);
 console.log(muneeb["last" + namekey]);
+
+const interestedIn = prompt("What do you want to know about muneeb");
+
+if (muneeb[interestedIn]) {
+  console.log(muneeb[interestedIn]);
+} else {
+  console.log("Wrong Request");
+}
