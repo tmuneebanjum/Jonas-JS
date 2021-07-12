@@ -69,6 +69,35 @@
 // const age11 = calcAge(years[0]);
 // console.log(age1);
 
-const friends = ["Michael", "Steven", "Peter"];
-friends.push("jay");
-console.log(friends);
+// const friends = ["Michael", "Steven", "Peter"];
+// friends.push("jay");
+// console.log(friends);
+
+// function calcTip(bill) {
+//   if (bill >= 50 || bill <= 300) {
+//     const tip = 0.15 * bill;
+//     bill = tip + bill;
+//     return bill;
+//   } else {
+//     const tip = 0.25 * bill;
+//     bill = tip + bill;
+//     return bill;
+//   }
+// }
+// const tbill = [100, 200, 300];
+// const totalTip = calcTip(tbill[0]);
+// console.log(totalTip);
+
+//  // objects
+
+const muneeb = {
+  firstName: "Muneeb",
+  lastName: "Anjum",
+  age: 2021 - 2001,
+  job: "developer",
+};
+console.log(muneeb.firstName);
+
+const namekey = "Name";
+console.log(muneeb["first" + namekey]);
+console.log(muneeb["last" + namekey]);
